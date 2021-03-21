@@ -1,4 +1,4 @@
-num1 = input("Ingrese nro 1: ")
-num2 = input("Ingrese nro 2: ")
-suma = int(num1) + int(num2)
+num1 = 5
+num2 = 10
+suma = num1 + num2 + num1
 print(f"La suma es : {suma}")
