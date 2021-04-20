@@ -6,9 +6,9 @@ print(encabezado)
 lista = []
 listaDeValoraciones = []
 for linea in csvreader:
-    if linea[8] == '0' and linea[13] == "ES":
-        lista.append(linea[3])
-    listaDeValoraciones.append(linea[7])
+    if linea[7] == '0' and linea[12] == "ES":
+        lista.append(linea[2])
+    listaDeValoraciones.append(linea[6])
 listaDeValoraciones.sort(reverse=True)
 archivo.close()
 print(lista)
