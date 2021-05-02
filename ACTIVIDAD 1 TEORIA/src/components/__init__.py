@@ -1,0 +1,1 @@
+#Permite la importacion del modulo component
