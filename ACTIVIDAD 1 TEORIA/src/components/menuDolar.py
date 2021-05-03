@@ -2,6 +2,7 @@ import PySimpleGUI as sg
 from src.windows import menuDolar
 import src.handlers.guardarDolar as gd 
 
+
 def start():
     """
     Ejecucion del menu dolar
@@ -19,7 +20,7 @@ def loop_menuDolar():
     while True:
         event, value = window.read()
 
-        if event in (sg.WINDOW_CLOSED, 'Volver', '-exit-'):
+        if event in ( 'Volver', '-exit-'):
             break
         
         if event == '-actual-':
