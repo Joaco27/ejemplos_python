@@ -21,7 +21,7 @@ def loop_menuInicio():
     while True:
         event, value = window.read()
 
-        if event in (sg.WINDOW_CLOSED, 'Salir', '-exit-'):
+        if event in ('Salir', '-exit-'):
             break
 
         if event == '-dolar-':
