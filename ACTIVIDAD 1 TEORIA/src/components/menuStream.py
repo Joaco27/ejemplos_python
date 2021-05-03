@@ -19,7 +19,7 @@ def loop_menuStream():
     while True:
         event, value = window.read()
 
-        if event in (sg.WINDOW_CLOSED, 'Volver', '-exit-'):
+        if event in ('Volver', '-exit-'):
             break
 
         if event == '-fame-':
