@@ -20,7 +20,7 @@ def loop_menuDolar():
     while True:
         event, value = window.read()
 
-        if event in ( 'Volver', '-exit-'):
+        if event in ('Volver', '-exit-'):
             break
         
         if event == '-actual-':
